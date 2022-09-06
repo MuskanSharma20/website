@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.landingPage {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 690px;
+    background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+opacity: 0.99;
+}
+
+
+
+.landingPage h1{
+    font-size: 5.75rem;
+    line-height: 2.75rem;
+    color: aliceblue;
+}
+.landingPage p{
+    font-size: 1.75rem;
+    line-height: 7.75rem;
+    color: aliceblue;
+
+}
+
+section {
+    padding: 80px 0;
+    overflow: hidden;
+
+}
+
+.section-header {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.whyUs .card-item {
+    border: 1px solid rgba(82, 86, 94, 0.2);
+    background: #fff;
+    position: relative;
+    border-radius: 0;
+}
+
+.whyUs .card-item .card-bg {
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.whyUs .card-item .card-body {
+    padding: 30px;
+}
+
+.whyUs .card-item h4 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--color-secondary);
+}
+
+.whyUs .card-item p {
+    color: var(--color-secondary);
+    margin: 0;
+}
+
+.promise .promiseContent{
+  padding: 15%;
+    display: flex;
+justify-content: center;
+    flex-direction: column;
+    background-image: url("https://images.unsplash.com/photo-1635776062043-223faf322554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-repeat: no-repeat;
+background-size: cover;
+}
+
+.promiseContent h1{
+    font-size: 5.75rem;
+    line-height: 2.75rem;
+}
+.promiseContent p{
+    margin-top: 5%;
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+}
+
+
+.about .content {
+    background-color: #f6f9ff;
+    padding: 40px;
+}
+.about{
+    background-color: aliceblue;
+}
+.about h1 {
+ 
+    font-weight: 1000;
+    color: #4154f1;
+    text-transform: uppercase;
+}
+
+.about h2 {
+    font-size: 24px;
+    font-weight: 100;
+    color: #012970;
+}
+
+
+ .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+ .rounded-circle {
+    border-radius: 50% !important;
+}
+ .img-fluid {
+    width: 77%;
+    height: 380px;
+}
+ img {
+    vertical-align: middle;
+}
+
+.aboutArshi{
+    background-color: aliceblue;
+}
+
+.courses{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 290px;
+    background-image: url("https://images.unsplash.com/photo-1635776062043-223faf322554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+opacity: 0.99;
+}
+.courses h1{
+    font-weight: 700;
+    
+}
+    
+.row{
+    padding: 40px;
+}
+
+.box {
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgb(20 45 100 / 10%);
+    background: #fff;
+    height: 100%;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+}
+.box h3{
+    
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: #37517e;
+    
+}
+
+.box h4 {
+    font-size: 48px;
+    color: #37517e;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 25px;
+}
+
+.box ul {
+    padding: 20px 0;
+    color: #999;
+    text-align: left;
+    line-height: 20px;
+}
+
+.box .buy-btn {
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    color: #47b2e4;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+}
+
+.featured {
+    border-top-color: #47b2e4;
+}
+
+.placement{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 290px;
+    background-image: url("https://images.unsplash.com/photo-1635776062043-223faf322554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+opacity: 0.99;
+}
+
+.candidatesSec .row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.teamMain h1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 858px) {
+    .landingPage h1 {
+        font-size: 41px;
+      
+    }
+    .landingPage p {
+        font-size: 28px;
+        line-height: 2.75rem;
+       
+    }
+    section {
+        padding: 0px 0;
+        overflow: hidden;
+    }
+    .p-5 {
+        padding: 12px 0px !important;
+    }
+    .img-fluid {
+        width: 77%;
+        height: auto;
+    }
+    .about .content {
+        padding: 0px;
+    }
+    .row {
+        padding: 20px;
+    }
+    .promiseContent h1 {
+        font-size: 2.75rem;
+      
+    }
+    .promiseContent p {
+        margin-top: 5%;
+        font-size: 19px;
+        line-height: 2rem;
+    }
+    .container.aos-init.aos-animate {
+        margin-top: 50px;
+    }
+}
