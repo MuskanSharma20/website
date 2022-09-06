@@ -240,5 +240,42 @@ align-items: center;
 /* responsive */
 
 @media only screen and (max-width: 858px) {
-    
+    .landingPage h1 {
+        font-size: 41px;
+      
+    }
+    .landingPage p {
+        font-size: 28px;
+        line-height: 2.75rem;
+       
+    }
+    section {
+        padding: 0px 0;
+        overflow: hidden;
+    }
+    .p-5 {
+        padding: 12px 0px !important;
+    }
+    .img-fluid {
+        width: 77%;
+        height: auto;
+    }
+    .about .content {
+        padding: 0px;
+    }
+    .row {
+        padding: 20px;
+    }
+    .promiseContent h1 {
+        font-size: 2.75rem;
+      
+    }
+    .promiseContent p {
+        margin-top: 5%;
+        font-size: 19px;
+        line-height: 2rem;
+    }
+    .container.aos-init.aos-animate {
+        margin-top: 50px;
+    }
 }
